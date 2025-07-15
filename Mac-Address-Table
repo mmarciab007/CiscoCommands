@@ -1,3 +1,4 @@
 ! Cisco Switch
 clear mac address-table dynamic
 show mac address-table
+sh mac address-table | (include, exclude) aaaa.bbbb.cccc.dddd
