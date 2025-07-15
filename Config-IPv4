@@ -10,3 +10,4 @@
 (config-if)# ip address X.X.X.X 255.255.255.0
 (config-if)# no shutdown
 (config-if)# end
+# copy run start
