@@ -1,0 +1,3 @@
+! Cisco Switch
+clear mac address-table dynamic
+show mac address-table
