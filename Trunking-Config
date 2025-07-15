@@ -1,0 +1,10 @@
+#conf t
+(config)# interface gig X/Y
+(config-if)# switchport trunk encapsulation dot1q
+(config-if)# switchport mode trunk
+(config-if)# switchport trunk native VLAN #
+(config-if)# switchport trunk allowed vlan <#,#,#>
+!
+# show int trunk
+# show int status
+# show int gig #/# switchport
