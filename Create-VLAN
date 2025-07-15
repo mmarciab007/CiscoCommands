@@ -1,0 +1,12 @@
+! Switch
+# show vlan brief
+# show interface status
+# show int gig #/# switchport
+
+(config)# vlan <#>
+(config-vlan)# name <name>
+(config-vlan)# exit
+
+(config)# interface gig <#/#>
+(config-if)# switchport mode access
+(config-if)# switchport access vlan <#>
