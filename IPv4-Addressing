@@ -1,0 +1,12 @@
+! Cisco Router
+# show ip interface
+# show ip interface brief
+# show ip interface brief | exclude unassigned
+# show ip route
+# show ip route connected
+
+# config terminal
+(config)# interface gig X/Y
+(config-if)# ip address X.X.X.X 255.255.255.0
+(config-if)# no shutdown
+(config-if)# end
