@@ -1,0 +1,8 @@
+!Switch
+# show ip int brief
+# show ip route
+
+(config)# ip routing
+(config)# interface vlan <#>
+(config-if)# ip address <A.B.C.D 255.255.255.0> 
+(config-if)# no shutdown
