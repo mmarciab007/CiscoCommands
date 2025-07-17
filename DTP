@@ -1,0 +1,17 @@
+!  All switches
+# show int trunk
+# show int gig #.# switchport
+
+! SW1 
+# debug dtp packets
+(disable with “undebug all” or “un all”)
+# show debug
+
+! SW2
+# show int gig 0/1 switchport
+
+(config)# int range gig 0/1-2
+(config-if-range)# switchport trunk encapsulation dot1q
+(config-if-range)# switchport mode dynamic desirable
+
+# show int trunk
